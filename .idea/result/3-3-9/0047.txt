@@ -1,0 +1,50 @@
+下界：3
+启发式算法求解的上界：4
+Tried aggregator 2 times.
+MIP Presolve eliminated 2495 rows and 1618 columns.
+MIP Presolve modified 816 coefficients.
+Aggregator did 68 substitutions.
+Reduced MIP has 875 rows, 660 columns, and 5849 nonzeros.
+Reduced MIP has 635 binaries, 25 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (13.61 ticks)
+Probing fixed 570 vars, tightened 9 bounds.
+Probing changed sense of 6 constraints.
+Probing time = 0.00 sec. (6.08 ticks)
+Cover probing fixed 0 vars, tightened 60 bounds.
+Tried aggregator 3 times.
+MIP Presolve eliminated 823 rows and 618 columns.
+MIP Presolve modified 30 coefficients.
+Aggregator did 18 substitutions.
+Reduced MIP has 34 rows, 24 columns, and 94 nonzeros.
+Reduced MIP has 24 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.53 ticks)
+Probing fixed 4 vars, tightened 0 bounds.
+Probing changed sense of 3 constraints.
+Probing time = 0.00 sec. (0.06 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 8 rows and 7 columns.
+Aggregator did 2 substitutions.
+Reduced MIP has 24 rows, 15 columns, and 64 nonzeros.
+Reduced MIP has 15 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.12 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 24 rows, 15 columns, and 64 nonzeros.
+Reduced MIP has 15 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (0.05 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 66.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.04 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.06 sec. (44.61 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.06 sec. (44.61 ticks)
+obj = 4.0

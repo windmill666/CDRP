@@ -1,0 +1,49 @@
+下界：3
+启发式算法求解的上界：3
+Tried aggregator 3 times.
+MIP Presolve eliminated 9376 rows and 4764 columns.
+MIP Presolve modified 3736 coefficients.
+Aggregator did 158 substitutions.
+Reduced MIP has 2610 rows, 1708 columns, and 14635 nonzeros.
+Reduced MIP has 1673 binaries, 35 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (50.77 ticks)
+Probing fixed 1054 vars, tightened 1 bounds.
+Probing changed sense of 77 constraints.
+Probing time = 0.06 sec. (26.87 ticks)
+Cover probing fixed 0 vars, tightened 47 bounds.
+Tried aggregator 3 times.
+MIP Presolve eliminated 1799 rows and 1186 columns.
+MIP Presolve modified 166 coefficients.
+Aggregator did 39 substitutions.
+Reduced MIP has 772 rows, 483 columns, and 3224 nonzeros.
+Reduced MIP has 465 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (11.57 ticks)
+Probing fixed 362 vars, tightened 2 bounds.
+Probing changed sense of 5 constraints.
+Probing time = 0.00 sec. (1.35 ticks)
+Cover probing fixed 0 vars, tightened 7 bounds.
+Tried aggregator 3 times.
+MIP Presolve eliminated 695 rows and 412 columns.
+MIP Presolve modified 24 coefficients.
+Aggregator did 6 substitutions.
+Reduced MIP has 71 rows, 65 columns, and 241 nonzeros.
+Reduced MIP has 65 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.92 ticks)
+Probing time = 0.00 sec. (0.18 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 13 rows and 10 columns.
+MIP Presolve modified 1 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 57 rows, 54 columns, and 189 nonzeros.
+Reduced MIP has 54 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.32 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.17 sec. (155.64 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.17 sec. (155.64 ticks)
+obj = 3.0

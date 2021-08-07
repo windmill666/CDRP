@@ -1,0 +1,49 @@
+下界：2
+启发式算法求解的上界：3
+Tried aggregator 2 times.
+MIP Presolve eliminated 2174 rows and 1293 columns.
+MIP Presolve modified 590 coefficients.
+Aggregator did 66 substitutions.
+Reduced MIP has 759 rows, 567 columns, and 4849 nonzeros.
+Reduced MIP has 547 binaries, 20 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (13.09 ticks)
+Found incumbent of value 3.000000 after 0.02 sec. (28.41 ticks)
+Probing fixed 416 vars, tightened 0 bounds.
+Probing changed sense of 14 constraints.
+Probing time = 0.02 sec. (6.91 ticks)
+Cover probing fixed 3 vars, tightened 15 bounds.
+Tried aggregator 4 times.
+MIP Presolve eliminated 638 rows and 477 columns.
+MIP Presolve modified 103 coefficients.
+Aggregator did 18 substitutions.
+Reduced MIP has 103 rows, 72 columns, and 461 nonzeros.
+Reduced MIP has 67 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.38 ticks)
+Probing fixed 30 vars, tightened 0 bounds.
+Probing changed sense of 3 constraints.
+Probing time = 0.00 sec. (0.30 ticks)
+Tried aggregator 3 times.
+MIP Presolve eliminated 71 rows and 49 columns.
+MIP Presolve modified 24 coefficients.
+Aggregator did 7 substitutions.
+Reduced MIP has 25 rows, 16 columns, and 67 nonzeros.
+Reduced MIP has 15 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (0.30 ticks)
+Probing changed sense of 1 constraints.
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 5 rows and 2 columns.
+Aggregator did 1 substitutions.
+Reduced MIP has 19 rows, 13 columns, and 53 nonzeros.
+Reduced MIP has 12 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.10 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.05 sec. (40.37 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.05 sec. (40.37 ticks)
+obj = 3.0

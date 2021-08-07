@@ -1,0 +1,78 @@
+下界：4
+启发式算法求解的上界：9
+Tried aggregator 2 times.
+MIP Presolve eliminated 52872 rows and 15499 columns.
+MIP Presolve modified 4381 coefficients.
+Aggregator did 111 substitutions.
+Reduced MIP has 5588 rows, 4538 columns, and 54169 nonzeros.
+Reduced MIP has 4443 binaries, 95 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (97.70 ticks)
+Probing fixed 432 vars, tightened 0 bounds.
+Probing changed sense of 34 constraints.
+Probing time = 0.08 sec. (48.41 ticks)
+Cover probing fixed 0 vars, tightened 12 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 593 rows and 584 columns.
+MIP Presolve modified 104 coefficients.
+Aggregator did 17 substitutions.
+Reduced MIP has 4978 rows, 3937 columns, and 47073 nonzeros.
+Reduced MIP has 3848 binaries, 89 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (65.61 ticks)
+Probing fixed 13 vars, tightened 0 bounds.
+Probing time = 0.05 sec. (36.85 ticks)
+Cover probing fixed 0 vars, tightened 3 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 11 rows and 14 columns.
+MIP Presolve modified 40 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 4966 rows, 3922 columns, and 46871 nonzeros.
+Reduced MIP has 3833 binaries, 89 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (53.50 ticks)
+Probing fixed 12 vars, tightened 0 bounds.
+Probing time = 0.05 sec. (41.40 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Clique table members: 27757.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.42 sec. (472.63 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        4.8537   280                      4.8537     2972         
+      0     0        5.0748   326                   Cuts: 185     4441         
+      0     0        5.1538   350                    Cuts: 97     4936         
+      0     0        5.1829   333                    Cuts: 21     5034         
+      0     0        5.2087   384                    Cuts: 17     5212         
+      0     0        5.2092   382                    Cuts: 15     5254         
+      0     0        5.2109   379                     Cuts: 3     5284         
+      0     0        5.2109   380                     Cuts: 9     5296         
+*     0+    0                            8.0000        5.2109            34.86%
+      0     2        5.2109   355        8.0000        5.2109     5296   34.86%
+Elapsed time = 4.23 sec. (4539.87 ticks, tree = 0.02 MB, solutions = 1)
+      4     6        6.0205   305        8.0000        5.2295     8123   34.63%
+     23    14        6.4286   163        8.0000        5.4444    10857   31.94%
+     31    19        6.8000   108        8.0000        5.4444    14414   31.94%
+     51    28        7.0000   134        8.0000        5.5161    22967   31.05%
+     73    38        6.7778   217        8.0000        5.5161    27959   31.05%
+     93    39        6.3465   289        8.0000        5.8889    30108   26.39%
+*   105    36      integral     0        7.0000        5.8889    33677   15.87%
+    115    49        cutoff              7.0000        5.8889    35980   15.87%
+    131     9        5.9474   322        7.0000        5.8889    42435   15.87%
+
+Clique cuts applied:  7
+Implied bound cuts applied:  109
+Mixed integer rounding cuts applied:  43
+Zero-half cuts applied:  43
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    4.17 sec. (4488.88 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    1.98 sec. (2315.79 ticks)
+  Sync time (average)   =    0.28 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    6.16 sec. (6804.67 ticks)
+obj = 7.0

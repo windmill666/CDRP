@@ -1,0 +1,30 @@
+下界：2
+启发式算法求解的上界：2
+Tried aggregator 3 times.
+MIP Presolve eliminated 4783 rows and 2469 columns.
+MIP Presolve modified 852 coefficients.
+Aggregator did 94 substitutions.
+Reduced MIP has 897 rows, 524 columns, and 3323 nonzeros.
+Reduced MIP has 510 binaries, 14 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (15.50 ticks)
+Probing fixed 478 vars, tightened 6 bounds.
+Probing changed sense of 6 constraints.
+Probing time = 0.00 sec. (1.30 ticks)
+Cover probing fixed 0 vars, tightened 30 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 897 rows and 524 columns.
+MIP Presolve added 1 rows and 1 columns.
+MIP Presolve modified 15 coefficients.
+Aggregator did 1 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.71 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (30.00 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (30.00 ticks)
+obj = 2.0

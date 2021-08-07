@@ -1,0 +1,73 @@
+下界：6
+启发式算法求解的上界：13
+Tried aggregator 2 times.
+MIP Presolve eliminated 724550 rows and 189236 columns.
+MIP Presolve modified 36985 coefficients.
+Aggregator did 386 substitutions.
+Reduced MIP has 38245 rows, 28074 columns, and 408690 nonzeros.
+Reduced MIP has 27811 binaries, 263 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.47 sec. (1093.39 ticks)
+Probing fixed 1283 vars, tightened 1 bounds.
+Probing time = 1.55 sec. (967.04 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 1784 rows and 1813 columns.
+MIP Presolve modified 219 coefficients.
+Aggregator did 17 substitutions.
+Reduced MIP has 36444 rows, 26244 columns, and 378891 nonzeros.
+Reduced MIP has 25992 binaries, 252 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.63 sec. (623.85 ticks)
+Probing fixed 74 vars, tightened 0 bounds.
+Probing time = 0.61 sec. (313.04 ticks)
+Clique table members: 204984.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 11.44 sec. (8943.58 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        6.0000   877                      6.0000    11475         
+      0     0        6.0000   817                   Cuts: 168    22917         
+      0     0        6.0000  1029                   Cuts: 608    49072         
+      0     0        6.0000   511                    Cuts: 59    51347         
+      0     0        6.0000   708                   Cuts: 339    72994         
+Heuristic still looking.
+      0     2        6.0000   471                      6.0000    72994         
+Elapsed time = 238.80 sec. (150186.80 ticks, tree = 0.02 MB, solutions = 0)
+      1     3        6.0000   682                      6.0000   131206         
+      2     3        6.0000   614                      6.0000   133893         
+      3     4        6.2000   772                      6.0000   197756         
+      4     6        6.3333   514                      6.0000   271364         
+      5     7        6.5000   451                      6.0000   275765         
+      6     8        7.0000   356                      6.0000   282360         
+      7     9        7.0000   232                      6.0000   286080         
+      8    10        8.0000   115                      6.0000   288370         
+      9    11        7.0000   114                      6.0000   294469         
+     11    13        7.0000    34                      6.0000   305441         
+Elapsed time = 715.13 sec. (358722.49 ticks, tree = 0.39 MB, solutions = 1)
+*    13     5      integral     0        7.0000        6.0000   306134   14.29%
+     14     5        6.0000   745        7.0000        6.0000   255020   14.29%
+     15     5        6.0000   611        7.0000        6.0000   370346   14.29%
+     18     4        6.0000   782        7.0000        6.0000   190771   14.29%
+     19     6        6.0000   510        7.0000        6.0000   372592   14.29%
+     32    11        6.0000   328        7.0000        6.0000   375939   14.29%
+     41    18        6.0000    24        7.0000        6.0000   377329   14.29%
+*    44+    5                            6.0000        6.0000             0.00%
+     44     5        6.0000   720        6.0000        6.0000   369485    0.00%
+     45     8        6.0000   578        6.0000        6.0000   581431    0.00%
+     46     5        6.0000   843        6.0000        6.0000   267427    0.00%
+
+Implied bound cuts applied:  213
+Mixed integer rounding cuts applied:  51
+Zero-half cuts applied:  44
+
+Root node processing (before b&c):
+  Real time             =  235.87 sec. (147258.12 ticks)
+Parallel b&c, 4 threads:
+  Real time             =  800.59 sec. (472530.44 ticks)
+  Sync time (average)   =  149.16 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 1036.47 sec. (619788.56 ticks)
+obj = 6.0

@@ -1,0 +1,4 @@
+下界：0
+启发式算法求解的上界：0
+Total (root+branch&cut) =    0.00 sec. (0 ticks)
+obj = 0.0

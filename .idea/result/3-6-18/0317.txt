@@ -1,0 +1,55 @@
+下界：5
+启发式算法求解的上界：5
+Tried aggregator 2 times.
+MIP Presolve eliminated 14977 rows and 8043 columns.
+MIP Presolve modified 10043 coefficients.
+Aggregator did 230 substitutions.
+Reduced MIP has 5114 rows, 3750 columns, and 38940 nonzeros.
+Reduced MIP has 3681 binaries, 69 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.09 sec. (111.90 ticks)
+Probing fixed 740 vars, tightened 1 bounds.
+Probing changed sense of 12 constraints.
+Probing time = 0.08 sec. (79.57 ticks)
+Cover probing fixed 0 vars, tightened 32 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 884 rows and 933 columns.
+MIP Presolve modified 128 coefficients.
+Aggregator did 23 substitutions.
+Reduced MIP has 4207 rows, 2794 columns, and 26905 nonzeros.
+Reduced MIP has 2734 binaries, 60 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (45.77 ticks)
+Probing fixed 102 vars, tightened 0 bounds.
+Probing changed sense of 10 constraints.
+Probing time = 0.09 sec. (65.91 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 98 rows and 110 columns.
+MIP Presolve modified 9 coefficients.
+Aggregator did 15 substitutions.
+Reduced MIP has 4094 rows, 2669 columns, and 25445 nonzeros.
+Reduced MIP has 2610 binaries, 59 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (41.93 ticks)
+Probing fixed 31 vars, tightened 0 bounds.
+Probing time = 0.06 sec. (64.25 ticks)
+Clique table members: 15989.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.06 sec. (56.59 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        5.0000   150                      5.0000      755         
+*     0+    0                            5.0000        5.0000             0.00%
+      0     0        cutoff              5.0000        5.0000      755    0.00%
+Elapsed time = 0.81 sec. (806.26 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.81 sec. (806.61 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.81 sec. (806.61 ticks)
+obj = 5.0

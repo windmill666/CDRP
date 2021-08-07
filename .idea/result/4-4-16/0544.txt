@@ -1,0 +1,66 @@
+下界：3
+启发式算法求解的上界：4
+Tried aggregator 4 times.
+MIP Presolve eliminated 183853 rows and 48981 columns.
+MIP Presolve modified 3961 coefficients.
+Aggregator did 216 substitutions.
+Reduced MIP has 6526 rows, 3579 columns, and 32616 nonzeros.
+Reduced MIP has 3539 binaries, 40 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.30 sec. (298.20 ticks)
+Probing fixed 3404 vars, tightened 8 bounds.
+Probing changed sense of 203 constraints.
+Probing time = 0.06 sec. (26.70 ticks)
+Cover probing fixed 1 vars, tightened 1858 bounds.
+Tried aggregator 3 times.
+MIP Presolve eliminated 6381 rows and 3469 columns.
+MIP Presolve modified 124 coefficients.
+Aggregator did 31 substitutions.
+Reduced MIP has 114 rows, 79 columns, and 346 nonzeros.
+Reduced MIP has 75 binaries, 4 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (8.87 ticks)
+Probing fixed 7 vars, tightened 1 bounds.
+Probing changed sense of 6 constraints.
+Probing time = 0.02 sec. (0.74 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 29 rows and 18 columns.
+MIP Presolve modified 8 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 83 rows, 57 columns, and 240 nonzeros.
+Reduced MIP has 56 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.44 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing changed sense of 2 constraints.
+Probing time = 0.00 sec. (0.50 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 9 rows and 3 columns.
+MIP Presolve modified 4 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 72 rows, 51 columns, and 207 nonzeros.
+Reduced MIP has 50 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.48 ticks)
+Probing fixed 2 vars, tightened 0 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.00 sec. (0.46 ticks)
+Clique table members: 10559.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.13 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            4.0000        3.0000            25.00%
+      0     0        cutoff              4.0000        4.0000       12    0.00%
+      0     0        cutoff              4.0000        4.0000       12    0.00%
+Elapsed time = 0.55 sec. (523.55 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.55 sec. (524.96 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.55 sec. (524.96 ticks)
+obj = 4.0

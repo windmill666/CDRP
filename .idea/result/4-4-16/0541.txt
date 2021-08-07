@@ -1,0 +1,51 @@
+下界：3
+启发式算法求解的上界：9
+Tried aggregator 2 times.
+MIP Presolve eliminated 104017 rows and 29198 columns.
+MIP Presolve modified 4467 coefficients.
+Aggregator did 174 substitutions.
+Reduced MIP has 8197 rows, 6246 columns, and 78635 nonzeros.
+Reduced MIP has 6136 binaries, 110 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.16 sec. (166.32 ticks)
+Probing fixed 195 vars, tightened 0 bounds.
+Probing changed sense of 48 constraints.
+Probing time = 0.09 sec. (89.51 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 345 rows and 335 columns.
+MIP Presolve modified 65 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 7850 rows, 5909 columns, and 74260 nonzeros.
+Reduced MIP has 5799 binaries, 110 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.13 sec. (111.40 ticks)
+Probing fixed 16 vars, tightened 0 bounds.
+Probing time = 0.09 sec. (73.72 ticks)
+Clique table members: 41076.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.53 sec. (649.00 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        4.0000   344                      4.0000     3033         
+*     0+    0                            4.0000        4.0000             0.00%
+      0     0        cutoff              4.0000        4.0000     4291    0.00%
+Elapsed time = 2.03 sec. (2013.90 ticks, tree = 0.01 MB, solutions = 1)
+
+Clique cuts applied:  8
+Implied bound cuts applied:  34
+Mixed integer rounding cuts applied:  26
+Zero-half cuts applied:  102
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    2.03 sec. (2015.13 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    2.03 sec. (2015.13 ticks)
+obj = 4.0

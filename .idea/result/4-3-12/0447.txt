@@ -1,0 +1,48 @@
+下界：3
+启发式算法求解的上界：3
+Tried aggregator 4 times.
+MIP Presolve eliminated 35121 rows and 9985 columns.
+MIP Presolve modified 1718 coefficients.
+Aggregator did 106 substitutions.
+Reduced MIP has 1627 rows, 930 columns, and 7314 nonzeros.
+Reduced MIP has 910 binaries, 20 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (60.25 ticks)
+Probing fixed 888 vars, tightened 16 bounds.
+Probing changed sense of 2 constraints.
+Probing time = 0.00 sec. (2.40 ticks)
+Cover probing fixed 0 vars, tightened 100 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 1617 rows and 920 columns.
+MIP Presolve modified 6 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 8 rows, 8 columns, and 24 nonzeros.
+Reduced MIP has 8 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.51 ticks)
+Probing changed sense of 1 constraints.
+Probing time = 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 8 rows, 8 columns, and 24 nonzeros.
+Reduced MIP has 8 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Clique table members: 9.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.01 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0        3.0000        3.0000        1    0.00%
+Elapsed time = 0.08 sec. (97.31 ticks, tree = 0.00 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.08 sec. (97.61 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.08 sec. (97.61 ticks)
+obj = 3.0

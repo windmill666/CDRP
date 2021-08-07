@@ -1,0 +1,49 @@
+下界：3
+启发式算法求解的上界：3
+Tried aggregator 2 times.
+MIP Presolve eliminated 15803 rows and 7555 columns.
+MIP Presolve modified 6668 coefficients.
+Aggregator did 240 substitutions.
+Reduced MIP has 4278 rows, 2699 columns, and 24371 nonzeros.
+Reduced MIP has 2656 binaries, 43 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (85.81 ticks)
+Found incumbent of value 3.000000 after 0.11 sec. (120.18 ticks)
+Probing fixed 1631 vars, tightened 0 bounds.
+Probing changed sense of 264 constraints.
+Probing time = 0.09 sec. (72.64 ticks)
+Cover probing fixed 0 vars, tightened 72 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 2833 rows and 1824 columns.
+MIP Presolve modified 231 coefficients.
+Aggregator did 44 substitutions.
+Reduced MIP has 1401 rows, 831 columns, and 6207 nonzeros.
+Reduced MIP has 807 binaries, 24 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (14.74 ticks)
+Probing fixed 621 vars, tightened 3 bounds.
+Probing time = 0.02 sec. (5.65 ticks)
+Cover probing fixed 0 vars, tightened 9 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 1207 rows and 705 columns.
+MIP Presolve modified 73 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 192 rows, 125 columns, and 575 nonzeros.
+Reduced MIP has 123 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.59 ticks)
+Probing time = 0.00 sec. (0.64 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 11 rows and 4 columns.
+MIP Presolve modified 2 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 180 rows, 120 columns, and 537 nonzeros.
+Reduced MIP has 118 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.24 sec. (223.22 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.24 sec. (223.22 ticks)
+obj = 3.0

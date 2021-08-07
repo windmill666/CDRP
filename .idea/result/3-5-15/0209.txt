@@ -1,0 +1,44 @@
+下界：2
+启发式算法求解的上界：2
+Tried aggregator 2 times.
+MIP Presolve eliminated 9055 rows and 4378 columns.
+MIP Presolve modified 1477 coefficients.
+Aggregator did 111 substitutions.
+Reduced MIP has 1814 rows, 990 columns, and 7078 nonzeros.
+Reduced MIP has 969 binaries, 21 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (24.48 ticks)
+Probing fixed 796 vars, tightened 4 bounds.
+Probing changed sense of 56 constraints.
+Probing time = 0.02 sec. (9.59 ticks)
+Cover probing fixed 0 vars, tightened 49 bounds.
+Tried aggregator 4 times.
+MIP Presolve eliminated 1732 rows and 912 columns.
+MIP Presolve modified 84 coefficients.
+Aggregator did 23 substitutions.
+Reduced MIP has 59 rows, 55 columns, and 230 nonzeros.
+Reduced MIP has 54 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.46 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.11 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 3 columns.
+MIP Presolve modified 4 coefficients.
+Reduced MIP has 57 rows, 52 columns, and 220 nonzeros.
+Reduced MIP has 51 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.16 ticks)
+Probing fixed 4 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.10 ticks)
+Clique table members: 189.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+
+Root node processing (before b&c):
+  Real time             =    0.08 sec. (66.75 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.08 sec. (66.75 ticks)
+obj = 2.0

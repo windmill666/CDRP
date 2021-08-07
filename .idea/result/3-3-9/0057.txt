@@ -1,0 +1,48 @@
+下界：1
+启发式算法求解的上界：2
+Tried aggregator 4 times.
+MIP Presolve eliminated 1201 rows and 726 columns.
+MIP Presolve modified 192 coefficients.
+Aggregator did 59 substitutions.
+Reduced MIP has 44 rows, 34 columns, and 137 nonzeros.
+Reduced MIP has 33 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.29 ticks)
+Found incumbent of value 2.000000 after 0.00 sec. (4.64 ticks)
+Probing fixed 8 vars, tightened 0 bounds.
+Probing changed sense of 5 constraints.
+Probing time = 0.00 sec. (0.10 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 25 rows and 19 columns.
+MIP Presolve modified 4 coefficients.
+Reduced MIP has 19 rows, 15 columns, and 60 nonzeros.
+Reduced MIP has 14 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.08 ticks)
+Probing changed sense of 2 constraints.
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 1 columns.
+Reduced MIP has 18 rows, 14 columns, and 57 nonzeros.
+Reduced MIP has 13 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.06 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 26.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.02 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            2.0000        1.0000            50.00%
+      0     0        cutoff              2.0000                      0    0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (5.22 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (5.22 ticks)
+obj = 2.0

@@ -1,0 +1,63 @@
+下界：4
+启发式算法求解的上界：4
+Tried aggregator 2 times.
+MIP Presolve eliminated 138483 rows and 37027 columns.
+MIP Presolve added 2 rows and 0 columns.
+MIP Presolve modified 6273 coefficients.
+Aggregator did 187 substitutions.
+Reduced MIP has 5660 rows, 3322 columns, and 30042 nonzeros.
+Reduced MIP has 3282 binaries, 40 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.17 sec. (169.82 ticks)
+Found incumbent of value 4.000000 after 0.25 sec. (244.31 ticks)
+Probing fixed 2965 vars, tightened 2 bounds.
+Probing changed sense of 827 constraints.
+Probing time = 0.13 sec. (88.66 ticks)
+Cover probing fixed 10 vars, tightened 185 bounds.
+Tried aggregator 4 times.
+MIP Presolve eliminated 5354 rows and 3087 columns.
+MIP Presolve modified 201 coefficients.
+Aggregator did 56 substitutions.
+Reduced MIP has 250 rows, 179 columns, and 840 nonzeros.
+Reduced MIP has 172 binaries, 7 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (14.27 ticks)
+Probing fixed 31 vars, tightened 0 bounds.
+Probing changed sense of 3 constraints.
+Probing time = 0.00 sec. (1.90 ticks)
+Cover probing fixed 0 vars, tightened 2 bounds.
+Tried aggregator 3 times.
+MIP Presolve eliminated 65 rows and 54 columns.
+MIP Presolve modified 22 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 183 rows, 123 columns, and 584 nonzeros.
+Reduced MIP has 121 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.58 ticks)
+Probing changed sense of 2 constraints.
+Probing time = 0.00 sec. (1.04 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 5 rows and 4 columns.
+MIP Presolve modified 5 coefficients.
+Reduced MIP has 178 rows, 119 columns, and 560 nonzeros.
+Reduced MIP has 117 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.64 ticks)
+Probing time = 0.00 sec. (1.13 ticks)
+Clique table members: 390.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.32 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            4.0000        3.0000            25.00%
+      0     0        cutoff              4.0000                      3    0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.41 sec. (363.16 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.41 sec. (363.16 ticks)
+obj = 4.0

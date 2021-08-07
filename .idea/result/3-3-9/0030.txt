@@ -1,0 +1,62 @@
+下界：1
+启发式算法求解的上界：3
+Tried aggregator 2 times.
+MIP Presolve eliminated 2210 rows and 1339 columns.
+MIP Presolve modified 299 coefficients.
+Aggregator did 59 substitutions.
+Reduced MIP has 730 rows, 528 columns, and 4758 nonzeros.
+Reduced MIP has 510 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (12.33 ticks)
+Probing fixed 381 vars, tightened 2 bounds.
+Probing changed sense of 10 constraints.
+Probing time = 0.02 sec. (4.86 ticks)
+Cover probing fixed 0 vars, tightened 25 bounds.
+Tried aggregator 3 times.
+MIP Presolve eliminated 583 rows and 428 columns.
+MIP Presolve modified 119 coefficients.
+Aggregator did 11 substitutions.
+Reduced MIP has 136 rows, 89 columns, and 585 nonzeros.
+Reduced MIP has 85 binaries, 4 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (2.72 ticks)
+Probing fixed 40 vars, tightened 1 bounds.
+Probing changed sense of 11 constraints.
+Probing time = 0.00 sec. (0.46 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 94 rows and 58 columns.
+MIP Presolve modified 24 coefficients.
+Aggregator did 4 substitutions.
+Reduced MIP has 37 rows, 27 columns, and 135 nonzeros.
+Reduced MIP has 27 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.37 ticks)
+Probing time = 0.00 sec. (0.08 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 1 columns.
+Reduced MIP has 36 rows, 26 columns, and 133 nonzeros.
+Reduced MIP has 26 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.09 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.08 ticks)
+Clique table members: 131.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.08 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            3.0000        1.0000            66.67%
+      0     0        cutoff              3.0000        3.0000       10    0.00%
+      0     0        cutoff              3.0000        3.0000       10    0.00%
+Elapsed time = 0.06 sec. (40.02 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.06 sec. (40.07 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.06 sec. (40.07 ticks)
+obj = 3.0

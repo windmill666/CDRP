@@ -1,0 +1,39 @@
+下界：2
+启发式算法求解的上界：3
+Tried aggregator 2 times.
+MIP Presolve eliminated 2376 rows and 1500 columns.
+MIP Presolve modified 371 coefficients.
+Aggregator did 61 substitutions.
+Reduced MIP has 562 rows, 365 columns, and 2803 nonzeros.
+Reduced MIP has 349 binaries, 16 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (9.31 ticks)
+Found incumbent of value 3.000000 after 0.03 sec. (14.38 ticks)
+Probing fixed 303 vars, tightened 4 bounds.
+Probing changed sense of 6 constraints.
+Probing time = 0.00 sec. (2.09 ticks)
+Cover probing fixed 0 vars, tightened 63 bounds.
+Tried aggregator 3 times.
+MIP Presolve eliminated 540 rows and 347 columns.
+MIP Presolve modified 53 coefficients.
+Aggregator did 5 substitutions.
+Reduced MIP has 16 rows, 13 columns, and 45 nonzeros.
+Reduced MIP has 13 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.90 ticks)
+Probing fixed 2 vars, tightened 0 bounds.
+Probing changed sense of 5 constraints.
+Probing time = 0.00 sec. (0.04 ticks)
+Tried aggregator 3 times.
+MIP Presolve eliminated 12 rows and 9 columns.
+Aggregator did 4 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.05 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (17.99 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (17.99 ticks)
+obj = 3.0

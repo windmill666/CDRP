@@ -1,0 +1,18 @@
+下界：2
+启发式算法求解的上界：2
+Tried aggregator 5 times.
+MIP Presolve eliminated 1778 rows and 1047 columns.
+MIP Presolve modified 314 coefficients.
+Aggregator did 81 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.02 sec. (5.41 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (5.74 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (5.74 ticks)
+obj = 2.0

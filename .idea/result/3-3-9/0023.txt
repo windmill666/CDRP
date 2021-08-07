@@ -1,0 +1,49 @@
+下界：2
+启发式算法求解的上界：3
+Tried aggregator 2 times.
+MIP Presolve eliminated 1758 rows and 1150 columns.
+MIP Presolve modified 290 coefficients.
+Aggregator did 51 substitutions.
+Reduced MIP has 408 rows, 262 columns, and 1988 nonzeros.
+Reduced MIP has 250 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (6.77 ticks)
+Found incumbent of value 3.000000 after 0.00 sec. (9.36 ticks)
+Probing fixed 181 vars, tightened 1 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.00 sec. (1.50 ticks)
+Cover probing fixed 0 vars, tightened 21 bounds.
+Tried aggregator 4 times.
+MIP Presolve eliminated 337 rows and 204 columns.
+MIP Presolve modified 59 coefficients.
+Aggregator did 11 substitutions.
+Reduced MIP has 60 rows, 47 columns, and 179 nonzeros.
+Reduced MIP has 44 binaries, 3 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (1.56 ticks)
+Probing time = 0.00 sec. (0.14 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 3 rows and 4 columns.
+Reduced MIP has 57 rows, 43 columns, and 169 nonzeros.
+Reduced MIP has 40 binaries, 3 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.13 ticks)
+Probing time = 0.00 sec. (0.12 ticks)
+Clique table members: 196.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.11 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            3.0000        2.0000            33.33%
+      0     0        cutoff              3.0000                      4    0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (13.53 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (13.53 ticks)
+obj = 3.0

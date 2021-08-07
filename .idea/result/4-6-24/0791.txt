@@ -1,0 +1,53 @@
+下界：3
+启发式算法求解的上界：6
+Tried aggregator 2 times.
+MIP Presolve eliminated 867843 rows and 221414 columns.
+MIP Presolve modified 16949 coefficients.
+Aggregator did 396 substitutions.
+Reduced MIP has 30827 rows, 18492 columns, and 221954 nonzeros.
+Reduced MIP has 18375 binaries, 117 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.52 sec. (1112.40 ticks)
+Probing fixed 1376 vars, tightened 2 bounds.
+Probing changed sense of 126 constraints.
+Probing time = 0.73 sec. (526.98 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 1959 rows and 1955 columns.
+MIP Presolve modified 273 coefficients.
+Aggregator did 27 substitutions.
+Reduced MIP has 28841 rows, 16510 columns, and 189599 nonzeros.
+Reduced MIP has 16405 binaries, 105 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.41 sec. (415.14 ticks)
+Probing fixed 30 vars, tightened 0 bounds.
+Probing time = 0.17 sec. (116.59 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 25 rows and 32 columns.
+MIP Presolve modified 62 coefficients.
+Aggregator did 6 substitutions.
+Reduced MIP has 28810 rows, 16472 columns, and 188853 nonzeros.
+Reduced MIP has 16367 binaries, 105 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.31 sec. (300.39 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.06 sec. (35.29 ticks)
+Clique table members: 100967.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 1.01 sec. (662.83 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        3.0000    49                      3.0000     2923         
+*     0+    0                            3.0000        3.0000             0.00%
+      0     0        cutoff              3.0000        3.0000     2923    0.00%
+Elapsed time = 5.56 sec. (4440.19 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    5.59 sec. (4446.77 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    5.59 sec. (4446.77 ticks)
+obj = 3.0
